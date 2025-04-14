@@ -1,4 +1,4 @@
-const somma = require('./somma'); 
+const {somma} = require('./calcolatrice'); 
 
 test('correct test: adds 2+2 to equal 4', () => {
     const risultato= somma(2, 2); 

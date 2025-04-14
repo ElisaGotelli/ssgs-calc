@@ -5,9 +5,9 @@ elisa@LAPTOP-KH5LG4KG:~/labo_SSGS$ npm test
 > labo_ssgs@1.0.0 test
 > jest
 
- FAIL  ./somma.test.js
-  ✓ correct test: adds 2+2 to equal 4 (2 ms)
-  ✕ wrong test: adds 3+5 to equals 7 (4 ms)
+ FAIL  ./calcolatrice.test.js
+  ✓ correct test: adds 2+2 to equal 4 (8 ms)
+  ✕ wrong test: adds 3+5 to equals 7 (9 ms)
 
   ● wrong test: adds 3+5 to equals 7
 
@@ -22,10 +22,10 @@ elisa@LAPTOP-KH5LG4KG:~/labo_SSGS$ npm test
          |                       ^
       11 | });
 
-      at Object.toBe (somma.test.js:10:23)
+      at Object.toBe (calcolatrice.test.js:10:23)
 
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 passed, 2 total
 Snapshots:   0 total
-Time:        0.614 s, estimated 1 s
+Time:        1.446 s
 Ran all test suites.
