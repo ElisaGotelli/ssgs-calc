@@ -6,17 +6,17 @@ elisa@LAPTOP-KH5LG4KG:~/labo_SSGS$ npm test
 > jest
 
  FAIL  ./somma.test.js
-  ✓ correct test: adds 2+2 to equal 4 (3 ms)
-  ✕ wrong test: adds 1+2 to equals 4 (3 ms)
+  ✓ correct test: adds 2+2 to equal 4 (2 ms)
+  ✕ wrong test: adds 3+5 to equals 7 (4 ms)
 
-  ● wrong test: adds 1+2 to equals 4
+  ● wrong test: adds 3+5 to equals 7
 
     expect(received).toBe(expected) // Object.is equality
 
     Expected: 7
     Received: 8
 
-       8 | test('wrong test: adds 1+2 to equals 4', () => {
+       8 | test('wrong test: adds 3+5 to equals 7', () => {
        9 |     const risultato= somma(3, 5); 
     > 10 |     expect(risultato).toBe(7);  
          |                       ^
@@ -27,5 +27,5 @@ elisa@LAPTOP-KH5LG4KG:~/labo_SSGS$ npm test
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 passed, 2 total
 Snapshots:   0 total
-Time:        0.449 s, estimated 1 s
+Time:        0.614 s, estimated 1 s
 Ran all test suites.
