@@ -30,6 +30,11 @@ test('division test:  divides 6/3 to equal 2', () => {
     expect(risultato).toBe(2); 
 });
 
+//test sulla divisione per zero
+test('error division test:  divides 6/0 to thrown an error', () => {
+    expect(() => divisione(6, 0)).toThrow('Impossibile dividere per zero');
+});
+
 //test sull'elevamento a potenza
 test('exponentiation test: raise 6 to the power of 2 equals 36', () => {
     risultato= potenza(6, 2); 
