@@ -1,5 +1,5 @@
 function numControl(a,b){
-    if(isNan(a) || isNan(b)) throw new Error("uno o entrambi i valori inseriti non sono dei numeri!");
+    if (isNaN(a) || isNaN(b)) throw new Error("uno o entrambi i valori inseriti non sono dei numeri!");
     return; 
 }
 
