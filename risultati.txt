@@ -1,5 +1,6 @@
-metto in questo file i risulati su terminale del test: 
+##Metto in questo file i risulati su terminale del test errato creato per il laboratorio 9: 
 
+```
 elisa@LAPTOP-KH5LG4KG:~/labo_SSGS$ npm test
 
 > labo_ssgs@1.0.0 test
@@ -29,3 +30,4 @@ Tests:       1 failed, 1 passed, 2 total
 Snapshots:   0 total
 Time:        1.446 s
 Ran all test suites.
+```
