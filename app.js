@@ -22,8 +22,8 @@ function OperazioneSingola(){
         rl.question("Inserisci il primo operatore: ", function(a) {
             rl.question("Inserisci il secondo operatore: ", function(b) {
                 op = op.trim(); 
-                const a = parseFloat(a.trim());
-                const b = parseFloat(b.trim());
+                a = parseFloat(a.trim());
+                b = parseFloat(b.trim());
                 
                 try {
                     switch(op) {
