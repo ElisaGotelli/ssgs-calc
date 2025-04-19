@@ -1,5 +1,12 @@
 const { somma, sottrazione, moltiplicazione, divisione,potenza} = require('./calcolatrice');
 let risultato; 
+
+//test sul dare come operatore un valore non numerico
+/*test('wrong sum: adds 2+"w" to thrown an error', () => {
+    risultato= somma(2, "w"); 
+    expect(risultato).toBe(4); 
+});*/
+
 //test sulla somma 
 test('sum correct test: adds 2+2 to equal 4', () => {
     risultato= somma(2, 2); 
