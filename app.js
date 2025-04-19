@@ -19,13 +19,7 @@ rl.question("Digita il numero dell’operazione (ATTENZIONE!: il programma è ca
         rl.question("Inserisci il secondo numero da operare: ", function(num2) {
             const a = parseFloat(num1);
             const b = parseFloat(num2);
-
-            if (isNaN(a) || isNaN(b)) {
-                console.log("Errore! Inserito numero invalido");
-                rl.close();
-                return;
-            }
-
+            
             let risultato;
             try {
                 switch(op) {
