@@ -4,10 +4,10 @@ const { somma, sottrazione, moltiplicazione, divisione, potenza} = require('./ca
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
-  });
+});
 
 console.log('Benvenuto nella Calcolatrice!'); 
-let risultato, continuo; 
+let risultato;   
 OperazioneSingola(); 
 
 function OperazioneSingola(){
@@ -61,11 +61,11 @@ function OperazioneSingola(){
 }
 
 function Continuazione(){ 
-    rl.question("Vuoi continuare ad usare la calcolatrice? Scrivere Y se sì sennò N", function(continue) {
-        if(continue == Y) OperazioneSingola(); 
+    rl.question("Vuoi continuare ad usare la calcolatrice? Scrivere Y se sì sennò N: ", function(c) {
+        if(c == Y) OperazioneSingola(); 
         else{
             console.log("Fine utilizzo calcolatrice. Arrivederci!"); 
             r1.close(); 
         }
     });      
-}  
+}
