@@ -12,11 +12,11 @@ OperazioneSingola();
 
 function OperazioneSingola(){
     console.log('Di quale operazione vuoi usufruire?'); 
-    console.log('- scrivi 1 per Addizione');
-    console.log('- scrivi 2 per Sottrazione');
-    console.log('- scrivi 3 per Moltiplicazione');
-    console.log('- scrivi 4 per Divisione');
-    console.log('- scrivi 5 per elevare a Potenza');
+    console.log('   - scrivi 1 per Addizione');
+    console.log('   - scrivi 2 per Sottrazione');
+    console.log('   - scrivi 3 per Moltiplicazione');
+    console.log('   - scrivi 4 per Divisione');
+    console.log('   - scrivi 5 per elevare a Potenza');
     
     rl.question("Digita il numero dell’operazione (ATTENZIONE!: il programma è case sensitive! NON INSERIRE SPAZI): ", function(op) {
         rl.question("Inserisci il primo operatore: ", function(num1) {
@@ -48,11 +48,10 @@ function OperazioneSingola(){
                             break;
                         default:
                             console.log("Errore! Inserito un numero di operazione non valido!");
-                            rl.close();
-                            return;
                     }
                 } catch (err) {
                     console.log("Errore!", err.message);
+                    Continuazione();
                 }
                 Continuazione(); 
             });
@@ -61,11 +60,12 @@ function OperazioneSingola(){
 }
 
 function Continuazione(){ 
-    rl.question("Vuoi continuare ad usare la calcolatrice? Scrivere Y se sì sennò N: ", function(c) {
-        if(c == Y) OperazioneSingola(); 
+    rl.question("\nVuoi continuare ad usare la calcolatrice? Se sì, digitare y oppure inserire un qualsiasi altro valore: ", function(c) {
+        console.log("\n");
+        if(c == 'y') OperazioneSingola(); 
         else{
-            console.log("Fine utilizzo calcolatrice. Arrivederci!"); 
-            r1.close(); 
+            console.log("                                                           Fine utilizzo calcolatrice. Arrivederci! =)"); 
+            rl.close();
         }
     });      
 }
