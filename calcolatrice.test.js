@@ -49,7 +49,7 @@ test('multiplication test: multiply -2*-3 to equal 6', () => {
 //test sulla moltiplicazione con numeri positivi e negativi
 test('multiplication test: multiply -2*3 to equal -6', () => {
     risultato=moltiplicazione(-2, 3); 
-    expect(risultato).toBe(6); 
+    expect(risultato).toBe(-6); 
 });
 
 //test sulla divisione con risultato intero
@@ -69,8 +69,20 @@ test('error division test: divides 6/0 to thrown an error', () => {
     expect(()=>divisione(6, 0)).toThrow('Impossibile dividere per zero');
 });
 
-//test sull'elevamento a potenza
+//test sull'elevamento a potenza con esponente positivo
 test('exponentiation test: raise 6 to the power of 2 equals 36', () => {
     risultato=potenza(6, 2); 
     expect(risultato).toBe(36); 
+});
+
+//test sull'elevamento a potenza con esponente negativo 
+test('exponentiation test: raise 2 to the power of -2 equals 0.25', () => {
+    risultato=potenza(2, -2); 
+    expect(risultato).toBe(0.25); 
+});
+
+//test sull'elevamento a potenza con base negativa
+test('exponentiation test: raise -2 to the power of 3 equals -8', () => {
+    risultato=potenza(-2, 3); 
+    expect(risultato).toBe(-8); 
 });
