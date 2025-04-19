@@ -19,11 +19,11 @@ function OperazioneSingola(){
     console.log('   - scrivi 5 per elevare a Potenza');
     
     rl.question("Digita il numero dell’operazione: ", function(op) {
-        rl.question("Inserisci il primo operatore: ", function(num1) {
-            rl.question("Inserisci il secondo operatore: ", function(num2) {
+        rl.question("Inserisci il primo operatore: ", function(a) {
+            rl.question("Inserisci il secondo operatore: ", function(b) {
                 op = op.trim(); 
-                const a = parseFloat(num1);
-                const b = parseFloat(num2);
+                const a = parseFloat(a.trim());
+                const b = parseFloat(b.trim());
                 
                 try {
                     switch(op) {
