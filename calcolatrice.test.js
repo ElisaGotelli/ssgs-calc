@@ -59,9 +59,9 @@ test('division test: divides 6/3 to equal 2', () => {
 });
 
 //test sulla divisione con risultato fratto 
-test('division test: divides 3/6 to equal 1,5', () => {
+test('division test: divides 3/6 to equal 0.5', () => {
     risultato=divisione(3, 6); 
-    expect(risultato).toBe(1,5); 
+    expect(risultato).toBe(0.5); 
 });
 
 //test sulla divisione per zero
