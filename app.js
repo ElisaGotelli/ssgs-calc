@@ -1,5 +1,5 @@
 const readline = require('readline');
-const { somma, sottrazione, moltiplicazione, divisione,potenza} = require('./calcolatrice');
+const { somma, sottrazione, moltiplicazione, divisione, potenza} = require('./calcolatrice');
 
 const rl = readline.createInterface({
     input: process.stdin,
@@ -15,8 +15,8 @@ console.log('- scrivi 4 per Divisione');
 console.log('- scrivi 5 per elevare a Potenza');
 
 rl.question("Digita il numero dell’operazione (ATTENZIONE!: il programma è case sensitive! NON INSERIRE SPAZI): ", function(op) {
-    rl.question("Inserisci il primo numero da operare: ", function(num1) {
-        rl.question("Inserisci il secondo numero da operare: ", function(num2) {
+    rl.question("Inserisci il primo operatore: ", function(num1) {
+        rl.question("Inserisci il secondo operatore: ", function(num2) {
             const a = parseFloat(num1);
             const b = parseFloat(num2);
             
