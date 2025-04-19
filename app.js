@@ -18,9 +18,10 @@ function OperazioneSingola(){
     console.log('   - scrivi 4 per Divisione');
     console.log('   - scrivi 5 per elevare a Potenza');
     
-    rl.question("Digita il numero dell’operazione (ATTENZIONE!: il programma è case sensitive! NON INSERIRE SPAZI): ", function(op) {
+    rl.question("Digita il numero dell’operazione: ", function(op) {
         rl.question("Inserisci il primo operatore: ", function(num1) {
             rl.question("Inserisci il secondo operatore: ", function(num2) {
+                op = op.trim(); 
                 const a = parseFloat(num1);
                 const b = parseFloat(num2);
                 
