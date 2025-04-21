@@ -1,11 +1,21 @@
 # PROGETTO CALCOLATRICE 🔢
-## Scopo del Progetto:
-Creazione, testing ed interazione con una calcolatrice con la capacità di fare cinque operazioni: 
-  - Somma
-  - Sottrazione
-  - Moltiplicazione
-  - Divisione
-  - Elevamento a potenza
+Applicazione semplice e veloce sviluppata con Node.js per fare cinque tipi di operazione: 
+- Somma
+- Sottrazione
+- Moltiplicazione
+- Divisione
+- Elevamento a potenza 
+
+##Tabella dei contenuti: 
+  1. [Prerequisiti](#Prerequisiti)
+  2. [Comandi](#Comandi-Jest)
+  3. [Operazioni](#Operazioni)
+  4. [Lista file](#Lista-file)
+     
+##Comandi: 
+
+1. ###Installazione Node.js:
+
 
 ## Lista file: 
 Sono stati creati diversi file, in cui:
