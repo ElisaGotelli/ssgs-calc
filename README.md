@@ -13,20 +13,20 @@ Applicazione semplice e veloce sviluppata con Node.js per fare cinque tipi di op
   4. [Lista file](#Lista-file)
      
 ## Comandi: 
-- ### Cartella: 
-  * #### Creazione cartella:
-      ``` mkdir nome-cartella ```
-  * #### Entra in cartella:
-  
-  * #### Visualizzazione contenuto cartella:
-  
-  * #### Uscire da una cartella:
-     
-  * #### Trasformazione di una cartella in una Repository Git:
- 
-  * #### Clonazione di una repository Git come cartella in locale:
+- ### Cartella:
 
-  - ### Comandi Jest:
+  * #### Clonazione Repository Git come cartella in locale:
+    ``` git clone https://github.com/tuousername/ssgs-calc.git ```  
+  * #### Creazione cartella:
+     ``` mkdir nome-cartella ```
+  * #### Entra in cartella:
+    ``` cd nome-cartella ```
+  * #### Visualizzazione contenuto cartella corrente:
+    ``` ls ```
+  * #### Uscire da una cartella corrente:
+    ``` cd .. ``` 
+
+- ### Comandi Jest:
   
    
 
