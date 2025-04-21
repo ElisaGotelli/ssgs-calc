@@ -16,15 +16,25 @@ Applicazione semplice e veloce sviluppata con Node.js per fare cinque tipi di op
 - ### Cartella:
 
   * #### Clonazione Repository Git come cartella in locale:
-    ``` git clone https://github.com/tuousername/ssgs-calc.git ```  
+   ```
+    git clone https://github.com/tuousername/ssgs-calc.git
+   ```  
   * #### Creazione cartella:
-     ``` mkdir nome-cartella ```
+    ```
+     mkdir nome-cartella
+    ```
   * #### Entra in cartella:
-    ``` cd nome-cartella ```
+    ```
+    cd nome-cartella
+    ```
   * #### Visualizzazione contenuto cartella corrente:
-    ``` ls ```
+    ```
+    ls
+    ```
   * #### Uscire da una cartella corrente:
-    ``` cd .. ``` 
+    ```
+     cd ..
+    ``` 
 
 - ### Comandi Jest:
   
