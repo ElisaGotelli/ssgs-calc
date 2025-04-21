@@ -13,8 +13,22 @@ Applicazione semplice e veloce sviluppata con Node.js per fare cinque tipi di op
   4. [Lista file](#Lista-file)
      
 ## Comandi: 
+- ### Cartella: 
+  * #### Creazione cartella:
+      ``` mkdir nome-cartella ```
+  * #### Entra in cartella:
+  
+  * #### Visualizzazione contenuto cartella:
+  
+  * #### Uscire da una cartella:
+     
+  * #### Trasformazione di una cartella in una Repository Git:
+ 
+  * #### Clonazione di una repository Git come cartella in locale:
 
-1. ### Installazione Node.js:
+  - ### Comandi Jest:
+  
+   
 
 
 ## Lista file: 
