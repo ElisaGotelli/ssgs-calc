@@ -1,20 +1,20 @@
 # PROGETTO CALCOLATRICE 🔢
 Applicazione semplice e veloce sviluppata con Node.js per fare cinque tipi di operazione: 
-- Somma
-- Sottrazione
-- Moltiplicazione
-- Divisione
-- Elevamento a potenza 
+  - Somma
+  - Sottrazione
+  - Moltiplicazione
+  - Divisione
+  - Elevamento a potenza 
 
-##Tabella dei contenuti: 
+## Tabella dei contenuti: 
   1. [Prerequisiti](#Prerequisiti)
   2. [Comandi](#Comandi-Jest)
   3. [Operazioni](#Operazioni)
   4. [Lista file](#Lista-file)
      
-##Comandi: 
+## Comandi: 
 
-1. ###Installazione Node.js:
+1. ### Installazione Node.js:
 
 
 ## Lista file: 
