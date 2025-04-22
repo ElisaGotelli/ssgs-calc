@@ -73,7 +73,7 @@ Applicazione semplice e veloce sviluppata con Node.js per fare cinque tipi di op
   ```
 
 ## Struttura dei file: 
-- [calcolatrice.js](calcolatrice.js):
+- [calcolatrice.js](calcolatrice.js): <br> 
   Contiene: 
     * codice di tutte le possibili operazioni
     * codice di gestione degli errori di tutte le possibili operazioni (come la divisione per zero)
