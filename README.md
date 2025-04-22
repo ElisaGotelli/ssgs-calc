@@ -14,32 +14,40 @@ Applicazione semplice e veloce sviluppata con Node.js per fare cinque tipi di op
      
 ## Comandi: 
 
+- ###Comandi per l'installazione delle dipendenze: 
+
   * #### Clonazione Repository Git come cartella in locale:
    ```
     git clone https://github.com/tuousername/ssgs-calc.git
    ```  
-  * #### Creazione cartella:
+  * #### Entra nella cartella del Progetto:
     ```
-     mkdir nome-cartella
-    ```
-  * #### Entra in cartella:
-    ```
-    cd nome-cartella
+    cd ssg-calc
     ```
   * #### Visualizzazione contenuto cartella corrente:
     ```
     ls
     ```
-  * #### Uscire da una cartella corrente:
-    ```
-     cd ..
-    ``` 
+ 
   * #### Installazione jest:
     ```
      npm install --save-dev jest
-    ```  
-   
+    ```
 
+  * ### Installazione dipendenze: 
+    ```
+     npm install
+    ```
+- ### Comando per l'esecuzione: 
+   node app.js
+
+- ### Comando per il testing:
+  npm test
+
+ * #### Uscire da una cartella corrente:
+    ```
+     cd ..
+    ``` 
 
 ## Lista file: 
 Sono stati creati diversi file, in cui:
