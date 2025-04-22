@@ -74,14 +74,14 @@ Applicazione semplice e veloce sviluppata con Node.js per fare cinque tipi di op
 
 ## Struttura dei file: 
 - [calcolatrice.js](calcolatrice.js):
-Contiene: 
+  Contiene: 
     * codice di tutte le possibili operazioni
     * codice di gestione degli errori di tutte le possibili operazioni (come la divisione per zero)
 - [calcolatrice.test.js](calcolatrice.test.js):
-Contiene: 
+  Contiene: 
     * test per testare il corretto funzionamento di ogni operazione della calcolatrice
 - [app.js](app.js):
-Contiene: 
+  Contiene: 
     * codice di una possibile applicazione che va ad interagire ed eseguire le operazioni della calcolatrice
 
 
