@@ -18,7 +18,7 @@ Applicazione semplice e veloce sviluppata con Node.js per fare cinque tipi di op
   - In base all’operazione selezionata, il programma richiede l’inserimento dei parametri necessari per eseguire l’operazione.
   - Se l’utente inserisce un parametro invalido, il programma segnala l’errore e interrompe l’esecuzione.
   - Dopo che l’utente ha inserito i parametri corretti, il programma restituisce il risultato dell’operazione e termina l’esecuzione con un saluto.
-  - I test nel file *calcolatrice.test.js* non devono contenere errori e devono avere una coverage 100% 
+  - I test nel file [calcolatrice.test.js](calcolatrice.test.js) non devono contenere errori e devono avere una coverage 100% 
      
 ## Comandi: 
 
@@ -69,14 +69,14 @@ Applicazione semplice e veloce sviluppata con Node.js per fare cinque tipi di op
     ```
 
 ## Lista file: 
-- File *calcolatrice.js*:
+- File [calcolatrice.js](calcolatrice.js):
   Questo file presenta:
     * codice di tutte le possibili operazioni
     * codice di gestione degli errori di tutte le possibili operazioni (come la divisione per zero)
-- File  *calcolatrice.test.js*:
+- File  [calcolatrice.test.js](calcolatrice.test.js):
   Questo file presenta:
     * test per testare il corretto funzionamento di ogni operazione della calcolatrice
-- File *app.js*:
+- File [app.js](app.js):
   Questo file presenta:
     * codice di una possibile applicazione che va ad interagire ed eseguire le operazioni della calcolatrice
 
