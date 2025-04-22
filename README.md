@@ -13,7 +13,6 @@ Applicazione semplice e veloce sviluppata con Node.js per fare cinque tipi di op
   4. [Lista file](#Lista-file)
      
 ## Comandi: 
-- ### Cartella:
 
   * #### Clonazione Repository Git come cartella in locale:
    ```
@@ -35,9 +34,10 @@ Applicazione semplice e veloce sviluppata con Node.js per fare cinque tipi di op
     ```
      cd ..
     ``` 
-
-- ### Comandi Jest:
-  
+  * #### Installazione jest:
+    ```
+     npm install --save-dev jest
+    ```  
    
 
 
