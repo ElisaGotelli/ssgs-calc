@@ -1,4 +1,4 @@
-##Metto in questo file i risulati su terminale del test errato creato per il laboratorio 9: 
+## This file contains the terminal results of the incorrect test created for lab 9:**
 
                           elisa@LAPTOP-KH5LG4KG:~/labo_SSGS$ npm test
                           
