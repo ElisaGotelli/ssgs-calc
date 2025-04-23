@@ -1,26 +1,26 @@
 const readline = require('readline');
-const { somma, sottrazione, moltiplicazione, divisione, potenza} = require('./calcolatrice');
+const { sum, subtraction, multiplication, division, power } = require('./calculator');
 
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
 });
 
-console.log('Benvenuto nella Calcolatrice!'); 
-let risultato;   
-OperazioneSingola(); 
+console.log('Welcome to the Calculator!'); 
+let result;   
+singleOperation(); 
 
-function OperazioneSingola(){
-    console.log('Di quale operazione vuoi usufruire?'); 
-    console.log('   - scrivi 1 per Addizione');
-    console.log('   - scrivi 2 per Sottrazione');
-    console.log('   - scrivi 3 per Moltiplicazione');
-    console.log('   - scrivi 4 per Divisione');
-    console.log('   - scrivi 5 per elevare a Potenza');
+function singleOperation(){
+    console.log('Which operation would you like to use?'); 
+    console.log('   - type 1 for Addition');
+    console.log('   - type 2 for Subtraction');
+    console.log('   - type 3 for Multiplication');
+    console.log('   - type 4 for Division');
+    console.log('   - type 5 for Exponentiation');
     
-    rl.question("Digita il numero dell’operazione: ", function(op) {
-        rl.question("Inserisci il primo operatore: ", function(a) {
-            rl.question("Inserisci il secondo operatore: ", function(b) {
+    rl.question("Enter the number for the operation: ", function(op) {
+        rl.question("Enter the first operand: ", function(a) {
+            rl.question("Enter the second operand: ", function(b) {
                 op = op.trim(); 
                 a = parseFloat(a.trim());
                 b = parseFloat(b.trim());
@@ -28,44 +28,44 @@ function OperazioneSingola(){
                 try {
                     switch(op) {
                         case '1': 
-                            risultato = somma(a, b);
-                            console.log(`Il risultato della somma è: ${risultato}`);
+                            result = sum(a, b);
+                            console.log(`The result of the addition is: ${result}`);
                             break;
                         case '2': 
-                            risultato = sottrazione(a, b); 
-                            console.log(`Il risultato della sottrazione è: ${risultato}`);
+                            result = subtraction(a, b); 
+                            console.log(`The result of the subtraction is: ${result}`);
                             break;
                         case '3': 
-                            risultato = moltiplicazione(a, b); 
-                            console.log(`Il risultato della moltiplicazione è: ${risultato}`);
+                            result = multiplication(a, b); 
+                            console.log(`The result of the multiplication is: ${result}`);
                             break;
                         case '4': 
-                            risultato = divisione(a, b); 
-                            console.log(`Il risultato della divisione è: ${risultato}`);
+                            result = division(a, b); 
+                            console.log(`The result of the division is: ${result}`);
                             break;
                         case '5': 
-                            risultato = potenza(a, b); 
-                            console.log(`Il risultato dellelevamento a potenza è: ${risultato}`);
+                            result = power(a, b); 
+                            console.log(`The result of the exponentiation is: ${result}`);
                             break;
                         default:
-                            console.log("Errore! Inserito un numero di operazione non valido!");
+                            console.log("Error! Invalid operation number entered!");
                     }
                 } catch (err) {
-                    console.log("Errore!", err.message);
-                    Continuazione();
+                    console.log("Error!", err.message);
+                    continueUsingCalculator();
                 }
-                Continuazione(); 
+                continueUsingCalculator(); 
             });
         });
     });
 }
 
-function Continuazione(){ 
-    rl.question("\nVuoi continuare ad usare la calcolatrice? Se sì, digitare y oppure inserire un qualsiasi altro valore: ", function(c) {
+function continueUsingCalculator(){ 
+    rl.question("\nDo you want to continue using the calculator? If yes, type y or enter any other value: ", function(c) {
         console.log("\n");
-        if(c == 'y') OperazioneSingola(); 
+        if(c == 'y') singleOperation(); 
         else{
-            console.log("                                                           Fine utilizzo calcolatrice. Arrivederci! =)"); 
+            console.log("                                                           Goodbye! =)"); 
             rl.close();
         }
     });      
