@@ -41,7 +41,7 @@ Applicazione semplice e veloce sviluppata con Node.js per fare cinque tipi di op
   npm install --save-dev jest
   ```
   
-  * ### Installazione delle dipendenze: 
+  * #### Installazione delle dipendenze: 
   ```
   npm install
   ```
@@ -84,5 +84,6 @@ Applicazione semplice e veloce sviluppata con Node.js per fare cinque tipi di op
   Contiene: 
     * codice di una possibile applicazione che va ad interagire ed eseguire le operazioni della calcolatrice
 
-##Licenza 
+## Licenza: 
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
