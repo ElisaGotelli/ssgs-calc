@@ -37,15 +37,12 @@ A simple and fast application developed with Node.js to perform five types of bi
   cd ssgs-calc
   ```
   
-  * #### Install Jest as a dev dependency:
-  ```
-  npm install --save-dev jest
-  ```
-  
-  * #### Install other dependencies:
+  * #### Install dependencies: <br>
+  To install all the necessary dependencies for the project, run the following command:
   ```
   npm install
   ```
+  This will install both the required production and development dependencies, including Jest for testing.
   
 - ### Run the application:
   ```
@@ -77,6 +74,11 @@ A simple and fast application developed with Node.js to perform five types of bi
   * #### Open the project in Visual Studio Code:
   ```
   code .
+  ```
+  * #### Install Jest as a dev dependency: <br>
+  Jest is automatically installed when running npm install, but it can also be installed manually using:
+  ```
+  npm install --save-dev jest
   ```
 
 ## File Structure:
