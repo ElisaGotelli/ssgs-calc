@@ -20,7 +20,7 @@ A simple and fast application developed with Node.js to perform five types of bi
 - Based on the selected operation, the program asks for the necessary parameters.
 - If the user enters an invalid parameter, the program reports the error without terminating execution.
 - Once valid parameters are provided, the program returns the result and asks if the user wants to continue using the application.
-- The tests in [calcolatrice.test.js](calcolatrice.test.js) must run without errors and must have 100% coverage.
+- The tests in [calculator.test.js](calculator.test.js) must run without errors and must have 100% coverage.
    
 ## Commands: 
 
@@ -73,11 +73,11 @@ A simple and fast application developed with Node.js to perform five types of bi
   ```
 
 ## File Structure:
-- [calcolatrice.js](calcolatrice.js): <br> 
+- [calculator.js](calculator.js): <br> 
   Contains: 
     * Code for all operations
     * Error handling for all operations (e.g., division by zero)
-- [calcolatrice.test.js](calcolatrice.test.js):<br> 
+- [calculator.test.js](calculator.test.js):<br> 
   Contains: 
     * Tests for verifying the correct behavior of each calculator operation
 - [app.js](app.js):<br> 
