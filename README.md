@@ -1,89 +1,89 @@
-# PROGETTO CALCOLATRICE 🔢
-Applicazione semplice e veloce sviluppata con Node.js per fare cinque tipi di operazione binarie: 
-- Somma tra due parametri
-- Sottrazione del valore del secondo parametro dal primo
-- Moltiplicazione tra due parametri
-- Divisione del primo parametro per il secondo
-- Elevamento a potenza del primo parametro per il secondo
+# CALCULATOR PROJECT 🔢
+A simple and fast application developed with Node.js to perform five types of binary operations:
+- Addition between two parameters
+- Subtraction of the second parameter from the first
+- Multiplication between two parameters
+- Division of the first parameter by the second
+- Exponentiation of the first parameter to the power of the second
 
-## Tabella dei contenuti: 
-1. [Requisiti](#Requisiti)
-2. [Comandi](#Comandi)
-3. [Struttura dei file](#Struttura-dei-file)
+## Table of Contents:
+1. [Requirements](#requirements)
+2. [Commands](#commands)
+3. [File Structure](#file-structure)
 
-## Requisiti:   
-- L’interazione con l’utente avviene tramite terminale, nel file [app.js](app.js).
-- Al lancio, il programma mostra:
-     * Un messaggio di benvenuto
-     * L'elenco delle operazioni supportate.
-- L’utente può selezionare l’operazione desiderata tra quelle disponibili.
-- In base all’operazione selezionata, il programma richiede l’inserimento dei parametri necessari per eseguire l’operazione.
-- Se l’utente inserisce un parametro invalido, il programma segnala l’errore non interrompendo l'esecuzione
-- Dopo che l’utente ha inserito i parametri corretti, il programma restituisce il risultato e chiede se l'utente desidera continuare ad usare l'applicazione
-- I test nel file [calcolatrice.test.js](calcolatrice.test.js) non devono contenere errori e devono avere una coverage 100% 
-     
-## Comandi: 
+## Requirements:
+- Interaction with the user takes place through the terminal, in the file [app.js](app.js).
+- When launched, the program displays:
+  * A welcome message
+  * The list of supported operations
+- The user can select the desired operation from the list.
+- Based on the selected operation, the program asks for the necessary parameters.
+- If the user enters an invalid parameter, the program reports the error without terminating execution.
+- Once valid parameters are provided, the program returns the result and asks if the user wants to continue using the application.
+- The tests in [calcolatrice.test.js](calcolatrice.test.js) must run without errors and must have 100% coverage.
+   
+## Commands: 
 
-- ### Comandi per l'installazione delle dipendenze:
+- ### Install dependencies:
   
-  * #### Clonazione del Repository Git:
+  * #### Clone the Git repository:
   ```
   git clone https://github.com/tuousername/ssgs-calc.git
   ```
   
-  * #### Accesso alla cartella del Progetto:
+  * #### Navigate to the project folder:
   ```
-  cd ssg-calc
+  cd ssgs-calc
   ```
   
-  * #### Installazione di jest come dipendenza di sviluppo:
+  * #### Install Jest as a dev dependency:
   ```
   npm install --save-dev jest
   ```
   
-  * #### Installazione delle dipendenze: 
+  * #### Install other dependencies:
   ```
   npm install
   ```
   
-- ### Comando per l'esecuzione dell'applicazione: 
+- ### Run the application:
   ```
   node app.js
   ```
 
-- ### Comando per l'esecuzione dei test:
+- ### Run the tests:
   ```
   npm test
   ```
 
-- ### Comandi aggiuntivi utili:
+- ### Additional useful commands:
 
-  * #### Visualizzazione del contenuto della cartella corrente:
+  * #### List contents of the current folder:
   ```
   ls
   ```
   
-  * #### Uscire dalla cartella corrente:
+  * #### Move out of the current folder:
   ```
   cd ..
   ``` 
-  * #### Apertura del progetto in Visual Studio Code:
+  * #### Open the project in Visual Studio Code:
   ```
   code .
   ```
 
-## Struttura dei file: 
+## File Structure:
 - [calcolatrice.js](calcolatrice.js): <br> 
-  Contiene: 
-    * codice di tutte le possibili operazioni
-    * codice di gestione degli errori di tutte le possibili operazioni (come la divisione per zero)
+  Contains: 
+    * Code for all operations
+    * Error handling for all operations (e.g., division by zero)
 - [calcolatrice.test.js](calcolatrice.test.js):<br> 
-  Contiene: 
-    * test per testare il corretto funzionamento di ogni operazione della calcolatrice
+  Contains: 
+    * Tests for verifying the correct behavior of each calculator operation
 - [app.js](app.js):<br> 
-  Contiene: 
-    * codice di una possibile applicazione che va ad interagire ed eseguire le operazioni della calcolatrice
+  Contains: 
+    * Code for a simple application that interacts with and uses the calculator
 
-## Licenza: 
+## License: 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
