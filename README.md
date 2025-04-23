@@ -52,8 +52,14 @@ A simple and fast application developed with Node.js to perform five types of bi
   ```
 
 - ### Run the tests:
+    
+  * #### Without coverage:
   ```
   npm test
+  ```
+  * #### With coverage:
+  ```
+  npm test -- --coverage
   ```
 
 - ### Additional useful commands:
@@ -83,6 +89,9 @@ A simple and fast application developed with Node.js to perform five types of bi
 - [app.js](app.js):<br> 
   Contains: 
     * Code for a simple application that interacts with and uses the calculator
+ - [results.txt](results.txt):<br> 
+  Contains: 
+    * Results in the terminal from attempting to run the incorrect test in the file [calculator.test.js](calculator.test.js), which is currently set to be ignored.
 
 ## License: 
 This project is licensed under the MIT License. See the LICENSE file for more details.
