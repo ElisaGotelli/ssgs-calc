@@ -10,6 +10,7 @@ A simple and fast application developed with Node.js to perform five types of bi
 1. [Requirements](#requirements)
 2. [Commands](#commands)
 3. [File Structure](#file-structure)
+4. [License](#License)
 
 ## Requirements:
 - Interaction with the user takes place through the terminal, in the file [app.js](app.js).
