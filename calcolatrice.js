@@ -1,32 +1,32 @@
 function numControl(a,b){
-    if (isNaN(a) || isNaN(b)) throw new Error("uno o entrambi i valori inseriti non sono dei numeri!");
+    if (isNaN(a) || isNaN(b)) throw new Error("One or both of the entered values are not numbers!");
     return; 
 }
 
-function somma(a, b) {
-    numControl(a,b);
+function sum(a, b) {
+    numControl(a, b);
     return a + b;
-  }
-  
-  function sottrazione(a,b){
-    numControl(a,b);
-    return a-b;
-  }
+}
 
-  function moltiplicazione(a,b){
-    numControl(a,b);
-    return a*b; 
-  }
+function subtraction(a, b) {
+    numControl(a, b);
+    return a - b;
+}
 
-  function divisione(a, b) {
-    if (b === 0) throw new Error("Impossibile dividere per zero");
-    numControl(a,b);
+function multiplication(a, b) {
+    numControl(a, b);
+    return a * b;
+}
+
+function division(a, b) {
+    if (b === 0) throw new Error("Cannot divide by zero");
+    numControl(a, b);
     return a / b;
 }
 
-  function potenza(a,b){
-    numControl(a,b);
-    return  Math.pow(a,b)
+function power(a, b) {
+    numControl(a, b);
+    return Math.pow(a, b);
 }
 
-module.exports = { somma, sottrazione, moltiplicazione, divisione, potenza};
+module.exports = { sum, subtraction, multiplication, division, power };
