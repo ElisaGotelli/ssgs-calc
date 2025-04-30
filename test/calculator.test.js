@@ -1,4 +1,4 @@
-const { sum, subtraction, multiplication, division, power } = require('./calculator');
+const { sum, subtraction, multiplication, division, power } = require('./src/calculator');
 let result; 
 
 // Test for passing a non-numeric value as an operator to sum
