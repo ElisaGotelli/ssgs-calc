@@ -13,6 +13,7 @@ A simple and fast application developed with Node.js to perform five types of bi
 4. [License](#License)
 
 ## Requirements:
+- The Node.js v20.x version or higher is recommended
 - Interaction with the user takes place through the terminal, in the file [app.js](app.js).
 - When launched, the program displays:
   * A welcome message
