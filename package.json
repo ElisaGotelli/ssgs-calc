@@ -1,14 +1,14 @@
 {
-  "name": "labo_ssgs",
+  "name": "ssgs-calc",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A calculator that supports five binary operations using Node.js.",
+  "main": "app.js",
   "scripts": {
     "test": "jest --coverage"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["calculator", "Node.js", "jest", "math", "operation", "pipeline", "sum", "subtraction", "multilication", "division", "power"],
+  "author": "ElisaGotelli",
+  "license": "MIT",
   "devDependencies": {
     "jest": "^29.7.0"
   }
