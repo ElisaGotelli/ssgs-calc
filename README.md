@@ -50,14 +50,8 @@ A simple and fast application developed with Node.js to perform five types of bi
   ```
 
 - ### Run the tests:
-    
-  * #### Without coverage:
   ```
   npm test
-  ```
-  * #### With coverage:
-  ```
-  npm test -- --coverage
   ```
 
 - ### Additional useful commands:
@@ -74,11 +68,6 @@ A simple and fast application developed with Node.js to perform five types of bi
   * #### Open the project in Visual Studio Code:
   ```
   code .
-  ```
-  * #### Install Jest as a dev dependency: <br>
-  Jest is automatically installed when running npm install, but it can also be installed manually using:
-  ```
-  npm install --save-dev jest
   ```
 
 ## File Structure:
