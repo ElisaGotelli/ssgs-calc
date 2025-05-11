@@ -6,9 +6,20 @@
   "scripts": {
     "test": "jest --coverage"
   },
-  "keywords": ["calculator", "Node.js", "jest", "math", "operation", "pipeline", "sum", "subtraction", "multilication", "division", "power"],
+  "keywords": ["calculator", "Node.js", "jest", "math", "operation", "pipeline", "sum", "subtraction", "multiplication", "division", "power"],
   "author": "ElisaGotelli",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElisaGotelli/ssgs-calc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ElisaGotelli/ssgs-calc/issues"
+  },
+  "homepage": "https://github.com/ElisaGotelli/ssgs-calc",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "devDependencies": {
     "jest": "^29.7.0"
   }
