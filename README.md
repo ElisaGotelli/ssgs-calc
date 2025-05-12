@@ -23,7 +23,7 @@ A simple and fast application developed with Node.js to perform five types of bi
 - Based on the selected operation, the program asks for the necessary parameters.
 - If the user enters an invalid parameter, the program reports the error without terminating execution.
 - Once valid parameters are provided, the program returns the result and asks if the user wants to continue using the application.
-- The tests in [calculator.test.js](calculator.test.js) must run without errors and must have 100% coverage.
+- The tests in [calculator.test.js](src/calculator.test.js) must run without errors and must have 100% coverage.
    
 ## Commands: 
 
