@@ -15,7 +15,7 @@ A simple and fast application developed with Node.js to perform five types of bi
 
 ## Requirements:
 - The Node.js v20.x version or higher is recommended
-- Interaction with the user takes place through the terminal, in the file [app.js](app.js).
+- Interaction with the user takes place through the terminal, in the file [app.js](src/app.js).
 - When launched, the program displays:
   * A welcome message
   * The list of supported operations
@@ -23,7 +23,7 @@ A simple and fast application developed with Node.js to perform five types of bi
 - Based on the selected operation, the program asks for the necessary parameters.
 - If the user enters an invalid parameter, the program reports the error without terminating execution.
 - Once valid parameters are provided, the program returns the result and asks if the user wants to continue using the application.
-- The tests in [calculator.test.js](src/calculator.test.js) must run without errors and must have 100% coverage.
+- The tests in [calculator.test.js](test/calculator.test.js) must run without errors and must have 100% coverage.
    
 ## Commands: 
 
