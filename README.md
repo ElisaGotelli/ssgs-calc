@@ -73,19 +73,19 @@ A simple and fast application developed with Node.js to perform five types of bi
   ```
 
 ## File Structure:
-- [calculator.js](calculator.js): <br> 
+- [calculator.js](src/calculator.js): <br> 
   Contains: 
     * Code for all operations
     * Error handling for all operations (e.g., division by zero)
-- [calculator.test.js](calculator.test.js):<br> 
+- [calculator.test.js](test/calculator.test.js):<br> 
   Contains: 
     * Tests for verifying the correct behavior of each calculator operation
-- [app.js](app.js):<br> 
+- [app.js](src/app.js):<br> 
   Contains: 
     * Code for a simple application that interacts with and uses the calculator
- - [results.txt](results.txt):<br> 
+ - [results.txt](output/results.txt):<br> 
   Contains: 
-    * Results in the terminal from attempting to run the incorrect test in the file [calculator.test.js](calculator.test.js), which is currently set to be ignored.
+    * Results in the terminal from attempting to run the incorrect test in the file [calculator.test.js](test/calculator.test.js), which is currently set to be ignored.
 
 ## Continous Integration CI: 
 This project uses _GitHub Actions_ to automatically run tests and generate coverage reports on every push or pull request to the master branch ([cy.yml](.github/workflows/ci.yml)).
