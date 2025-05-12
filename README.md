@@ -10,7 +10,8 @@ A simple and fast application developed with Node.js to perform five types of bi
 1. [Requirements](#requirements)
 2. [Commands](#commands)
 3. [File Structure](#file-structure)
-4. [License](#License)
+4. [Continous Integration CI](#Continous-Integration-CI)
+5. [License](#License)
 
 ## Requirements:
 - The Node.js v20.x version or higher is recommended
@@ -87,7 +88,7 @@ A simple and fast application developed with Node.js to perform five types of bi
     * Results in the terminal from attempting to run the incorrect test in the file [calculator.test.js](calculator.test.js), which is currently set to be ignored.https://github.com/wuningxi/ChineseClassifierDataset 
 
 ## Continous Integration CI: 
-This project uses _GitHub Actions_ to automatically run tests and generate coverage reports on every push or pull request to the master branch ([cy.yml](cy.yml)).
+This project uses _GitHub Actions_ to automatically run tests and generate coverage reports on every push or pull request to the master branch ([cy.yml](.github/workflows/ci.yml)).
 
 Specifically, this workflow:
 - Runs on the ubuntu-latest environment
