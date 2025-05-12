@@ -85,7 +85,7 @@ A simple and fast application developed with Node.js to perform five types of bi
     * Code for a simple application that interacts with and uses the calculator
  - [results.txt](results.txt):<br> 
   Contains: 
-    * Results in the terminal from attempting to run the incorrect test in the file [calculator.test.js](calculator.test.js), which is currently set to be ignored.https://github.com/wuningxi/ChineseClassifierDataset 
+    * Results in the terminal from attempting to run the incorrect test in the file [calculator.test.js](calculator.test.js), which is currently set to be ignored.
 
 ## Continous Integration CI: 
 This project uses _GitHub Actions_ to automatically run tests and generate coverage reports on every push or pull request to the master branch ([cy.yml](.github/workflows/ci.yml)).
