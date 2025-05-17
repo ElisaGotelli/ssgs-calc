@@ -1,4 +1,4 @@
-# CALCULATOR PROJECT 🔢 (commento di prova)
+# CALCULATOR PROJECT 🔢 (ho ricambiato) 
 A simple and fast application developed with Node.js to perform five types of binary operations:
 - Addition between two parameters
 - Subtraction of the second parameter from the first
