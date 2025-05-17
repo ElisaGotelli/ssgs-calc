@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 
 console.log('Welcome to the Calculator!'); 
 let result;   
-singleOperation(); 
+singleOperation();
 
 function singleOperation(){
     console.log('Which operation would you like to use?'); 
